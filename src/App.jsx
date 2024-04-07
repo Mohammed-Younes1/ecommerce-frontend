@@ -13,7 +13,7 @@ import NavMobile from "./components/navbar/NavMobile";
 function App() {
   return (
     <div className="App">
-       {/* <NavBar /> */}
+       <NavBar />
        <NavMobile/>
      
 {/* 
@@ -24,7 +24,7 @@ function App() {
         <Route path="/contact" component={Contact} /> 
       </Router> */}
       <h1 className="text-3xl text-red-900 font-bold underline">
-        Hello world!
+        test
       </h1>
     </div>
   );

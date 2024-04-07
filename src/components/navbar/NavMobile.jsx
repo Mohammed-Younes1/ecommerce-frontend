@@ -12,14 +12,14 @@ function NavMobile() {
   };
 
   return (
-    <>
-      <div className="bg-blue_cust border-b border-border-blue flex justify-between items-center px-[6%] py-4">
+    <div className="isvisibleMob">
+      <div className=" bg-blue_cust border-b border-border-blue flex justify-between items-center px-[6%] py-4 ">
         <div className="flex items-center">
           <div className="mt-[2px]" onClick={toggleMenu}>
             {!isOpen ? (
-              <IoCloseOutline className="text-white w-[25px] h-[25px]" />
-            ) : (
               <RxHamburgerMenu className="text-white w-[25px] h-[25px]" />
+            ) : (
+              <IoCloseOutline className="text-white w-[25px] h-[25px]" />
             )}
           </div>
           <div className="text-white text-xl font-bold ml-4">Logo</div>
@@ -71,7 +71,7 @@ function NavMobile() {
         </div>
       </div>)}
       
-    </>
+    </div>
   );
 }
 

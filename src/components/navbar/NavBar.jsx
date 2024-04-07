@@ -5,7 +5,7 @@ import { BsCart3 } from "react-icons/bs";
 
 function NavBar() {
   return (
-    <>
+    <div className="isvisibleMobile">
       <div className="bg-blue_cust border-b border-border-blue flex justify-between items-center px-[6%] py-4">
         <div className="text-white text-xl font-bold ">Logo</div>
         <SearchBar />
@@ -59,7 +59,7 @@ function NavBar() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 
