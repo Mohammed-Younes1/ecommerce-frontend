@@ -1,4 +1,5 @@
 import "./App.css";
+import Category from "./components/elements/Category";
 import NavBar from "./components/navbar/NavBar";
 import NavMobile from "./components/navbar/NavMobile";
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
        <NavBar />
        <NavMobile/>
+       <Category />
      
 {/* 
       <Router>

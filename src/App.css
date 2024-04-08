@@ -1,16 +1,10 @@
-.isvisibleMobile{
-  display: inline;
-}
-@media (max-width: 4000px) and (min-width: 950px) {
-  .isvisibleMobile{
+@media (max-width: 951px) {
+  .isvisibleNav {
     display: none;
   }
-  
 }
 @media (min-width: 950px) {
-
-  .isvisibleMob{
+  .isvisibleMob {
     display: none;
   }
-  }
-
+}
