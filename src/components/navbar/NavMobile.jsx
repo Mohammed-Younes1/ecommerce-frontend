@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { BsCart3 } from "react-icons/bs";
 import { IoCloseOutline } from "react-icons/io5";
+import "../../App.css";
+
 // import { Link } from 'react-router-dom';
 
 function NavMobile() {
@@ -29,7 +31,7 @@ function NavMobile() {
 
       {/* dropdown */}
       {isOpen && ( <div>
-        <div className="bg-white flex font-light text-left">
+        <div className="bg-white flex font-light text-left ">
           <ul className="font-sans text-sm w-[100px] pl-[27px] py-[10px]">
             <li className="py-[8px]">
               <a href="/" className="text-blue_cust hover:text-border-blue py-2">

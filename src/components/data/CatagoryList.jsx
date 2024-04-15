@@ -35,5 +35,17 @@ const catagorylist = [
     name: "refrigerator",
     quantity: 2,
   },
+  {
+    id: 7,
+    image: "https://i.postimg.cc/zBnmZ6vf/Laptop.jpg",
+    name: "desktop",
+    quantity: 23,
+  },
+  {
+    id: 8,
+    image: "https://i.postimg.cc/zBnmZ6vf/Laptop.jpg",
+    name: "game console",
+    quantity: 9,
+  },
 ];
 export default catagorylist;
